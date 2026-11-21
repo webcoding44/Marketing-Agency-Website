@@ -1,78 +1,33 @@
-# React + TypeScript + Vite
+# Marketing-Agency-Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vantage Motors Preview](/agency.png)
 
-Currently, two official plugins are available:
+## ⚡ Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,tailwind" alt="React and Tailwind CSS" height="48" align="middle" />
+  </a>
+  <a href="https://gsap.com/">
+    <img src="https://raw.githubusercontent.com/greensock/gsap-skills/main/assets/gsap-green.svg" alt="GSAP" height="48" align="middle" />
+  </a>
+</p>
 
-## React Compiler
+## Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Marketing Agency Website is a visually engaging business website concept for a digital marketing agency. It uses a bold purple visual identity, clean layouts, clear typography, and focused calls to action to introduce the agency and guide visitors through its services and content.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+The page design brings key agency information together in one place, including marketing service offerings, performance highlights, featured work or content, pricing-style service information, and ways to start a conversation with the agency.
 
-## Expanding the ESLint configuration
+## Highlights
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Agency-focused hero section:** Introduces the agency's value proposition with prominent messaging and clear calls to action.
+- **Marketing services:** Presents the agency's service offerings in an organized, easy-to-scan layout.
+- **Results and performance highlights:** Uses visual metrics to communicate the kind of outcomes an agency may focus on.
+- **Featured content and work:** Showcases visual content cards and examples that help visitors explore the agency's approach.
+- **Service and pricing layouts:** Organizes package or service information to make comparisons easier.
+- **Insights and articles:** Includes a content area for marketing tips, ideas, and industry-related information.
+- **Conversion-focused sections:** Uses clear calls to action to encourage visitors to request information or start a conversation.
+- **Consistent visual language:** Combines a purple color palette, modern typography, spacious layouts, and reusable interface patterns.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+The combination of modern frontend technologies, structured content, elegant visual elements, and smooth animations results in a polished website experience that balances aesthetics, clarity, and usability.
